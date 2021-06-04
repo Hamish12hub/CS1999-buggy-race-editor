@@ -1,64 +1,74 @@
-html{
-  margin: 0;
-  padding: 0; 
-}
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  font-size: 1.2em;
-  color: #000000;
-  background: repeating-linear-gradient(
-    45deg,
-    #ffffee,
-    #ffffee 2em,
-    #eeeeee 2em,
-    #eeeeee 4em
-  );
+  background-color: rgb(194, 149, 244);
 }
-.main-content {
-  min-height: 100vh;
-  padding: 1em;
-  background: #ffffff;
-  margin: 0 0 0 3em;
+
+.centertext1{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
 }
-h1 {
-  margin: 0 0 1em 0;
+.centertext2{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: rgb(0, 0, 0);
+  margin-top: 40px;
+
 }
-p {
-  margin: 1em 0;
+
+input[type="color"] {
+  border: none;
+  height: 10vw;
+  width: 10vw;
 }
-a.button, input.button {
-  border: 1px solid #000000;
-  padding: 0.5em;
-  margin: 0.5em;
-  border-radius: 0.25em;
-  text-decoration: none;
-  background-color: #ffffff;
-  color: #000000;
-  box-shadow: 5px 5px 5px #999999;
-}
-a.button:hover {
-  background-color: #000000;
-  color: #ffffff;
-}
-input {
-  padding: 0.5em;
-  font-size: 100%;
-}
-input.button {
-  background-color: #99ff99;
-}
-table {
-  border: 1px solid #000000;
-  border-collapse: collapse;
-  margin: 0 0 2em 0;
-}
-table td, table th {
-  padding: 0.25em;
-  border: 1px solid #999999;
-  padding: 0.5rem;
-}
+
 .spacer {
-  margin: 3em 0;
+  color: azure;
+  display: flex;
+  justify-content: space-evenly;
+}
+.form_list{
+  margin-top: 40px;
+  margin: auto;
+  width: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width:1px 20px;
+  width: 450px;
+}
+
+.button1 {
+  padding: 15px 25px;
+  font-size: 24px;
+  font-family: 'Times New Roman';
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+  
+}
+
+
+.button1:hover {background-color: rgb(50, 50, 50)}
+
+
+
+.button1:active {
+  background-color: rgb(150, 150, 150);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#submit {
+  display: flex;
+  justify-content: center;
+}
+
+#homebutton {
+  margin-bottom: 20px;
 }
